@@ -9,10 +9,32 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
-            background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Safari 5.1 to 6.0 */
-            background: -o-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet); /* For Opera 11.1 to 12.0 */
-            background: -moz-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet); /* For Firefox 3.6 to 15 */
-            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax */
+            background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* Safari 5.1 à 6.0 */
+            background: -o-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet); /* Opera 11.1 à 12.0 */
+            background: -moz-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet); /* Firefox 3.6 à 15 */
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Syntaxe standard */
+            background-size: 200% 200%;
+            animation: gradientAnimation 10s ease infinite;
+        }
+        @-webkit-keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @-moz-keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @-o-keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
         h1 {
             color: #2c3e50;
@@ -44,7 +66,7 @@
     <p>Il existe des centaines de races de chiens, toutes variées en taille, forme, couleur et tempérament. Par exemple, le Chihuahua est l'une des plus petites races, tandis que le Dogue allemand est l'une des plus grandes.</p>
     
     <h2>Comportement et intelligence</h2>
-    <p>Les chiens sont très intelligents et peuvent comprendre jusqu'à plusieurs centaines de mots, signaux ou commandes. Leur comportement varie selon les races, mais ils sont généralement sociables et aimants.</p>
+    <p>Les chiens sont très intelligents et peuvent comprendre jusqu'à plusieurs centaines de mots, signaux ou commandes. Leur comportement varie selon les races, mais ils sont généralement sociables et loyaux.</p>
     
     <h2>Communication</h2>
     <p>Ils utilisent des aboiements, des gémissements, des grognements et même leur posture corporelle pour exprimer leurs émotions et leurs besoins.</p>
