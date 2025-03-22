@@ -3,56 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Informations fascinantes sur les chats.">
-    <title>Chat</title>
+    <title>Les Chats</title>
     <style>
-        body { 
-            background: -webkit-linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-            background: -moz-linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-            background: -o-linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-            background-size: 400% 400%;
-            -webkit-animation: gradient 15s ease infinite;
-            -moz-animation: gradient 15s ease infinite;
-            -o-animation: gradient 15s ease infinite;
-            animation: gradient 15s ease infinite;
-            color: #ffffff;
+        body {
             font-family: Arial, sans-serif;
-            padding: 20px;
-            font-size: 36px; /* Augmenter la taille de la police ici */
+            line-height: 1.6;
+            margin: 20px;
+            background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+            background: -o-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
+            background: -moz-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 200% 200%;
+            animation: gradientAnimation 10s ease infinite;
         }
-        
-        @-webkit-keyframes gradient {
+        @-webkit-keyframes gradientAnimation {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
             100% { background-position: 0% 50%; }
         }
-        @-moz-keyframes gradient {
+        @-moz-keyframes gradientAnimation {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
             100% { background-position: 0% 50%; }
         }
-        @-o-keyframes gradient {
+        @-o-keyframes gradientAnimation {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
             100% { background-position: 0% 50%; }
         }
-        @keyframes gradient {
+        @keyframes gradientAnimation {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
             100% { background-position: 0% 50%; }
         }
-
-        .text-center {
-            text-align: center;
+        h1 {
+            color: #2c3e50;
         }
-        .left-text {
-            text-align: left;
+        h2 {
+            color: #34495e;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
         }
     </style>
 </head>
 <body>
-    <p class="text-center">Vous avez choisi l'onglet chat 😺</p>
+    <h1>Les Chats</h1>
     <p class="left-text">Les chats sont des animaux fascinants, à la fois élégants et mystérieux. Voici quelques informations intéressantes à leur sujet :</p>
     <ul class="left-text">
         <li><strong>Caractéristiques physiques :</strong> Les chats domestiques (Felis catus) sont des petits mammifères carnivores. Leur corps est souple, leurs griffes rétractiles, et leur vue est excellente.</li>
