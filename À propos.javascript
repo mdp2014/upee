@@ -40,7 +40,7 @@
         </section>
         <section>
             <h2>Contactez-nous</h2>
-            <p>Pour toute question, n'hésitez pas à nous contacter à <a href="mailto:marin.depibrac@gmail.com" id="contactEmail">votre-email@example.com</a>.</p>
+            <p>Pour toute question, n'hésitez pas à nous contacter à <a href="mailto:marin.depibrac@gmail.com" id="contactEmail">marin.depibrac@gmail.com</a>.</p>
         </section>
     </main>
     <footer>
