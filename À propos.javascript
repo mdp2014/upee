@@ -21,17 +21,20 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             title: 'Notre mission',
-            content: 'Notre mission est de <span class="editable">vous expliquer les animaux.</span>.',
-            id: 'mission'
+            content: 'Notre mission est de <span class="editable">vous expliquer les animaux.</span>',
+            id: 'mission',
+            class: 'fade-in'
         },
         {
             title: 'Notre équipe',
-            content: 'Notre équipe se compose de <span class="editable">Marin (je suis un enfant).</span>.',
-            id: 'team'
+            content: 'Notre équipe se compose de <span class="editable">Marin (je suis un enfant).</span>',
+            id: 'team',
+            class: 'fade-in'
         },
         {
             title: 'Contactez-nous',
-            content: 'Pour toute question, n\'hésitez pas à nous contacter à <a href="mailto:marin.depibrac@gmail.com" id="contactEmail">marin.depibrac@gmail.com</a>.',
+            content: 'Pour toute question, n\'hésitez pas à nous contacter à <a href="mailto:marin.depibrac@gmail.com" id="contactEmail">marin.depibrac@gmail.com</a>',
+            class: 'fade-in'
         }
     ];
 
