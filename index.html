@@ -21,16 +21,21 @@
             100% { background-position: 0% 50%; }
         }
     </style>
+    <script>
+    function loadAboutPage() {
+        const script = document.createElement('script');
+        script.src = 'À propos.javascript';
+        document.body.appendChild(script);
+    }
+    </script>
 </head>
 <body>
-    <p>Bonjour bienvenu sur le site des animaux 💻!!!</p>
+    <p>Bonjour bienvenu sur le site des animaux 🖥️!!!</p>
     <p>Découvre encore plus sur les animaux 🐶😺</p>
     <p>Cliquez sur l'onglet qui vous intéresse 🤔</p>
     <p>Attention ce site est en construction donc il y peut avoir des bugs!!!</p>
     <a href="Chat.html">Le chat</a>
     <a href="Chien.html">Le chien</a>
     <a href="javascript:void(0)" onclick="loadAboutPage()">À propos</a>
-
-    
 </body>
 </html>
