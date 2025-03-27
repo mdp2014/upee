@@ -61,7 +61,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Ajouter l'animation de fondu en entrée
     setTimeout(() => {
         const welcomeMessage = document.getElementById('welcomeMessage');
-        welcomeMessage.style.opacity = 1;
+        console.log(welcomeMessage); // Vérifiez que cet élément n'est pas null
+        if (welcomeMessage) {
+            welcomeMessage.style.opacity = 1;
+        } else {
+            console.error('Element "welcomeMessage" not found');
+        }
     }, 100); // Délai pour déclencher l'animation
 
     // Ajouter des interactions pour les éléments éditables
